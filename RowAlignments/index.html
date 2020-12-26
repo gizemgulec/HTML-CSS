@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Row Alignments</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .container{
+
+            display: flex;
+            flex-wrap: wrap;
+
+            /*align-content: flex-start;
+            align-content: flex-end;
+            align-content: stretch;
+            align-content: center;
+            align-content: space-between;*/
+            align-content: space-around;
+
+
+            height: 1000px;
+            background-color: #f2f2f2;
+            padding: 15px;
+        }
+
+        .item{
+            background-color: chocolate;
+            padding: 30px;
+            margin: 30px;
+            color: #fff;
+            font-size: 25px;
+        }
+
+        .i8{
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="item">item1</div>
+        <div class="item">item2</div>
+        <div class="item">item3</div>
+        <div class="item">item4</div>
+        <div class="item">item5</div>
+        <div class="item">item6</div>
+        <div class="item i8">item8</div>
+
+    </div>
+</body>
+</html>

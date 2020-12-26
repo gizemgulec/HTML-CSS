@@ -1,0 +1,30 @@
+#container{
+	width: 1140px;
+	
+}
+#blog-post-container{
+	width: 75%;	
+	float: left;
+}
+
+#other-posts{
+	width: 25%;	
+	float: left;
+}
+
+.tags li{
+    /*float: left;  Bunu yaptığımızda clear da yapmamız gerekecekti, bunun yerine inline-block kullanalım*/
+    list-style: none;
+    display: inline-block;
+}
+
+.tags{
+    margin: 0px;
+    padding: 0px;
+}
+
+.tags li a{
+    text-decoration: none;
+    margin-right: 5px;  /*linkler arası mesafe artar*/
+}
+

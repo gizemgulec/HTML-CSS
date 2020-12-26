@@ -1,0 +1,21 @@
+#container{
+    width: 1140px;
+    background-color: blueviolet;
+}
+
+#blog-post-container{
+    width: 75%;
+    background-color: palevioletred;
+    float: left;
+}
+
+#other-posts{
+    width: 25%;
+    background-color: green;
+    float: left;
+}
+/*1140px'in %75'i ve %25'i*/
+
+#author-box{
+    border: 1px solid red;
+}
